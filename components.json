@@ -1,0 +1,22 @@
+{
+  "style": "base-nova",
+  "rsc": false,
+  "tsx": false,
+  "rtl": false,
+  "menuColor": "default-translucent",
+  "menuAccent": "subtle",
+  "iconLibrary": "lucide",
+  "tailwind": {
+    "cssVariables": true,
+    "css": "src/index.css",
+    "baseColor": "neutral"
+  },
+  "aliases": {
+    "components": "@/components",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "utils": "@/lib/utils",
+    "hooks": "@/hooks"
+  },
+  "registries": {}
+}
